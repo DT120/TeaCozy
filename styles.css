@@ -1,0 +1,155 @@
+/* Reset some default styles for better consistency across browsers */
+body, h1, h2, h3, h4, h5, h6, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    background-color: black;
+    color: seashell;
+    line-height: 1.6;
+    width: 100%;
+}
+
+.page-header {
+    background-color: black;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.page-header img#logo {
+    height: 50px;
+}
+
+.page-header ul {
+    display: flex;
+    list-style-type: none;
+    gap: 20px
+}
+
+.page-header .nav-link {
+    text-decoration: underline;
+    color: seashell;
+    padding-right: 20px;
+}
+
+.page-content {
+    padding-top: 140px;
+}
+
+#mission {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+    padding: 100px 0;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#mission h2 {
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+}
+
+#mission h4 {
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#tea {
+    padding: 50px 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+}
+
+#tea h2, #tea h4 {
+    margin-bottom: 20px;
+}
+
+#tea .featured-tea {
+    display: inline-block;
+    margin: 10px;
+    background-color: black;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+#tea img {
+    width: 300px;
+    height: 200px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.locations {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+    padding: 50px 0;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.locations .address {
+    background-color: rgba(0, 0, 0, 0.6);
+    margin: 10px;
+    padding: 40px;
+    border-radius: 8px;
+    width: 300px;
+    display: inline-block;
+}
+
+.locations h3, .locations p {
+    margin-bottom: 10px;
+}
+
+.page-footer {
+    background-color: black;
+    color: seashell;
+    text-align: center;
+    padding: 30px 10px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    height: 200px;
+}
+
+h6 {
+    text-align: left;
+    width: fit-content;
+}
+
+a {
+    color: seashell;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
